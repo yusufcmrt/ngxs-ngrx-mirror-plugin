@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngrx-mirror-plugin": [
+        "dist/ngrx-mirror-plugin/ngrx-mirror-plugin",
+        "dist/ngrx-mirror-plugin"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
