@@ -1,7 +1,33 @@
-# @ngxs/ngrx-mirror-plugin
-
-[![Version](https://img.shields.io/npm/v/@ngxs/ngrx-mirror-plugin.svg)](https://npmjs.org/package/@ngxs/ngrx-mirror-plugin)
-[![Downloads/week](https://img.shields.io/npm/dw/@ngxs/ngrx-mirror-plugin.svg)](https://npmjs.org/package/@ngxs/ngrx-mirror-plugin)
-[![License](https://img.shields.io/npm/l/@ngxs/ngrx-mirror-plugin.svg)](https://github.com/yusufcmrt/ngxs-ngrx-mirror-plugin/blob/master/package.json)
+# ngxs-ngrx-mirror-plugin
 
 This NGXS plugin will help you if you already using NGRX in your project and want to gradually switch to NGXS.
+
+
+## Installation
+
+```shell script
+npm install @yusufcmrt/ngxs-ngrx-mirror-plugin
+```
+or if you are using `yarn`
+
+```shell script
+yarn add @yusufcmrt/ngxs-ngrx-mirror-plugin
+```
+
+## Usage
+
+```typescript
+
+import { NgModule } from '@angular/core';
+import { NgrxMirrorPluginModule } from '@yusufcmrt/ngxs-ngrx-mirror-plugin';
+
+@NgModule({
+  imports: [
+    // ...
+    NgrxMirrorPluginModule.forRoot(),
+  ]
+})
+export class AppModule {}
+```
+
+
