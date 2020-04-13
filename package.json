@@ -1,6 +1,6 @@
 {
   "name": "ngxs-ngrx-mirror-plugin",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -48,5 +48,7 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "repository": "yusufcmrt/ngxs-ngrx-mirror-plugin",
+  "license": "MIT"
 }
