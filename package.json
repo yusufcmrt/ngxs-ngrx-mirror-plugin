@@ -1,6 +1,7 @@
 {
   "name": "ngxs-ngrx-mirror-plugin",
-  "version": "0.9.1",
+  "version": "0.9.2",
+  "author": "Yusuf CÖMERT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -49,6 +50,11 @@
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": "https://github.com/yusufcmrt/ngxs-ngrx-mirror-plugin/issues",
   "repository": "yusufcmrt/ngxs-ngrx-mirror-plugin",
+  "homepage": "https://github.com/yusufcmrt/ngxs-ngrx-mirror-plugin",
   "license": "MIT"
 }
