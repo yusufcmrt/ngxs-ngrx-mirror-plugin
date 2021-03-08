@@ -5,7 +5,6 @@
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
-    "tslib": "^1.10.0",
     "@ngrx/effects": "^9.1.0",
     "@ngrx/store": "^9.1.0",
     "@ngxs/store": "^3.6.2"
@@ -16,5 +15,8 @@
   "license": "MIT",
   "bugs": "https://github.com/yusufcmrt/ngxs-ngrx-mirror-plugin/issues",
   "repository": "yusufcmrt/ngxs-ngrx-mirror-plugin",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "homepage": "https://github.com/yusufcmrt/ngxs-ngrx-mirror-plugin"
 }
