@@ -46,6 +46,7 @@
   },
   "defaultProject": "ngrx-mirror-plugin",
   "cli": {
+    "analytics": "ac59b1e0-cddd-4257-a24a-34f192b64982",
     "packageManager": "yarn"
   }
 }
